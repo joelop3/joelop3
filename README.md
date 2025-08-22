@@ -1,94 +1,96 @@
-# Autonomy on different langs, technologies, command lines and other stuff
+# 💻 Technical Autonomy Across Technologies
 
-This is a self-evaluation of my proficiency and autonomy across various technologies and tools I've worked with throughout my full-stack development career. The technologies are grouped into different profiles: Frontend, Backend, DevOps/Infra, and Fullstack/Shared.
+This document is a self-assessment of my autonomy and experience across a broad range of technologies I've worked with throughout my full-stack development career. The technologies are grouped into four main categories: **Frontend**, **Backend**, **DevOps/Infrastructure**, and **Fullstack/Shared**.
 
-The scale ranges from 0 to 10, where 0 represents no knowledge or experience with the technology, and 10 represents full autonomy and deep experience. I have also left out a score for certain technologies (ranging from 0-3) where I either have very little experience or have not had the opportunity to work extensively with them.
+Rather than assigning numeric scores, I've indicated the tools and frameworks where I feel confident and autonomous, based on hands-on experience in production environments.
 
-I feel confident with all the technologies listed, even those with lower autonomy scores. My experience with similar tools in different languages or ecosystems allows me to adapt quickly. For example, while my autonomy with Drizzle and Prisma is lower, my deep experience with SQL databases and ORMs in Eloquent (Laravel), SQLModel (FastAPi) and Doctrine (Symfony) ensures I can apply these tools effectively. Likewise, my solid knowledge of Docker and Docker Compose makes it easy to learn alternatives like Docker Bake or Podman Compose. My ability to transfer knowledge across technologies gives me confidence, even with less direct experience.
+In some cases, while my direct experience with a specific tool may be limited, I rely on strong transferable knowledge from related technologies. For example:
+- Although I’ve had limited exposure to **Drizzle** and **Prisma**, my background with ORMs such as **Eloquent**, **Doctrine**, and **SQLModel** allows me to work with them effectively.
+- Similarly, tools like **Docker Bake** and **Podman Compose** are easy to pick up due to extensive experience with **Docker** and **Docker Compose**.
 
-This list reflects the tools and tech stacks I use on a day-to-day basis or have at least a foundational understanding of, depending on the project needs.
+This list reflects the technologies I use regularly or have a solid foundation in, depending on the context and project requirements.
+
+---
 
 ## 🧑‍🎨 Frontend
 
-| Technology        | Autonomy Level  |
-|-------------------|-----------------|
-| Svelte            | 10              |
-| Bits UI           | 10              |
-| Astro             | 10              |
-| Shadcn            | 9               |
-| Vite              | 9               |
-| Ecmascript 2025   | 9               |
-| ESLint            | 9               |
-| Tailwind 4        | 8               |
-| Vitest            | 8               |
-| React             | 7               |
-| TypeScript        | 7               |
-| Zod               | 7               |
-| Playwright        | 7               |
-| Cypress           | 6               |
-| React Router      | 6               |
-| Radix UI          | 5               |
-| Storybook         | 4               |
-| Redux             | 3               |
+- Svelte  
+- Bits UI  
+- Astro  
+- Shadcn  
+- Vite  
+- ECMAScript (2025+)  
+- ESLint  
+- Tailwind CSS  
+- Vitest  
+- React  
+- TypeScript  
+- Zod  
+- Playwright  
+- Cypress  
+- React Router  
+- Radix UI  
+- Storybook  
+- Redux  
+
+---
 
 ## 🛠 Backend
 
-| Technology        | Autonomy Level  |
-|-------------------|-----------------|
-| Node.js           | 10              |
-| OpenAPI           | 10              |
-| SQLite            | 10              |
-| PostgreSQL        | 10              |
-| MariaDB           | 10              |
-| PHP               | 9               |
-| Symfony           | 9               |
-| Express           | 9               |
-| FastAPI           | 9               |
-| Pytest            | 9               |
-| Laravel           | 8               |
-| Logto             | 8               |
-| UV                | 8               |
-| Ruff              | 8               |
-| Eloquent          | 7               |
-| Doctrine          | 7               |
-| Python            | 7               |
-| SQLModel/Alchemy  | 7               |
-| Hono              | 6               |
-| tRPC              | 5               |
-| Auth.js           | 5               |
-| Drizzle           | 4               |
-| Prisma            | 3               |
+- Node.js  
+- OpenAPI  
+- SQLite  
+- PostgreSQL  
+- MariaDB  
+- PHP  
+- Symfony  
+- Express.js  
+- FastAPI  
+- Pytest  
+- Laravel  
+- Logto  
+- UVicorn  
+- Ruff  
+- Eloquent ORM  
+- Doctrine ORM  
+- Python  
+- SQLModel / SQLAlchemy  
+- Hono  
+- tRPC  
+- Auth.js  
+- Drizzle ORM  
+- Prisma ORM  
 
-## 🧰 DevOps / Infra
+---
 
-| Technology             | Autonomy Level |
-|------------------------|----------------|
-| Docker                 | 10             |
-| Dockerfile             | 9              |
-| Docker Compose         | 9              |
-| GitHub Actions         | 8              |
-| Nginx Proxy Manager    | 8              |
-| DNS Domain Management  | 8              |
-| Grafana                | 8              |
-| Docker Stack           | 7              |
-| SSHD                   | 7              |
-| UFW                    | 6              |
-| Fail2ban               | 6              |
-| Podman                 | 5              |
-| Podman Compose         | 5              |
-| Certbot                | 5              |
-| Prometheus             | 5              |
-| Traefik                | 4              |
-| S3 Buckets             | 4              |
-| Docker Bake            | 3              |
+## ⚙️ DevOps / Infrastructure
 
-## 🔁 Fullstack / Shared
+- Docker  
+- Dockerfile  
+- Docker Compose  
+- GitHub Actions  
+- Nginx Proxy Manager  
+- DNS Management  
+- Grafana  
+- Docker Stack  
+- SSHD  
+- UFW  
+- Fail2Ban  
+- Podman  
+- Podman Compose  
+- Certbot  
+- Prometheus  
+- Traefik  
+- S3 Buckets  
+- Docker Bake  
 
-| Technology    | Autonomy Level  |
-|---------------|-----------------|
-| SvelteKit     | 10              |
-| PNPM          | 10              |
-| Bun           | 10              |
-| FNM           | 10              |
-| Biome         | 5               |
-| OpenTelemetry | 3               |
+---
+
+## 🔁 Fullstack / Shared Tools
+
+- SvelteKit  
+- PNPM  
+- Bun  
+- FNM  
+- Biome  
+- OpenTelemetry  
